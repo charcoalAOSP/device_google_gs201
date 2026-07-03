@@ -184,9 +184,6 @@ BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 # Set error limit to BOARD_SUPER_PARTITON_SIZE - 500MB
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 8006926336
 
-# Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
-
 # Build a separate system_dlkm partition
 BOARD_USES_SYSTEM_DLKMIMAGE := true
 BOARD_SYSTEM_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
