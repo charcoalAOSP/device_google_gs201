@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary">Pixel कॅमेरा मध्ये सेल्फी मोडमध्ये स्विच करण्यासाठी आणि बाहेर पडण्यासाठी, तुम्ही अ‍ॅपमध्ये असताना दोनदा फिरवा.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary">Ili utumie au uondoke kwenye hali ya selfi katika Kamera ya Pixel, geuza simu mara mbili ukiwa umefungua programu.</string>
+</resources>

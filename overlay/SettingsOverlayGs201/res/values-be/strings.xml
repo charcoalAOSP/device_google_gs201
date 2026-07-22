@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary">Каб пераключыць камеру Pixel з асноўнай на франтальную ці наадварот, павярніце прыладу двойчы.</string>
+</resources>
