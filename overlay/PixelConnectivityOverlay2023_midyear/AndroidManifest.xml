@@ -5,7 +5,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.google.android.connectivity.resources.overlay">
-    <overlay android:targetPackage="com.android.connectivity.resources"
+    <overlay android:targetPackage="com.google.android.connectivity.resources"
              android:targetName="ServiceConnectivityResourcesConfig"
              android:isStatic="true"
              android:priority="0" />
