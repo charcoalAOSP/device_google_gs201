@@ -282,6 +282,10 @@ PRODUCT_COPY_FILES += \
 # Hardware Info
 include hardware/google/pixel/HardwareInfo/HardwareInfo.mk
 
+# Adaptive Charging
+PRODUCT_COPY_FILES += \
+    device/google/gs201/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
 # Android Verified Boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
@@ -341,6 +345,7 @@ endif
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay \
     FrameworkResOverlayVendorGs201 \
+    PixelBatteryHealthOverlay \
     PixelConnectivityOverlay2023_midyear \
     PixelNfcOverlayCommon \
     PixelTetheringOverlay2021 \
